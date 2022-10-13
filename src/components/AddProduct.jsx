@@ -193,7 +193,7 @@ function AddProduct() {
                 <label>Type Switcher</label>
               </th>
               <td>
-                <select name="type" onChange={Options} id="product-type">
+                <select name="type" onChange={Options} id="productType">
                   <option id="productType">Type Switcher</option>
                   <option id="DVD" value="dvd">
                     DVD
