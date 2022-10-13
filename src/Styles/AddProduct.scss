@@ -1,12 +1,23 @@
 label {
-    font-weight: 500;
+  font-weight: 500;
 }
 
 table {
-    border-spacing: 10px;
-    
+  border-spacing: 10px;
 }
 
 th {
-    text-align: start;
+  text-align: start;
+}
+
+.advise {
+  color: rgb(11, 136, 28);
+}
+
+.error {
+  color: rgba(209, 0, 0, 0.781);
+}
+
+.options-error {
+  color: rgba(209, 0, 0, 0.781);
 }
