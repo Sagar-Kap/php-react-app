@@ -57,8 +57,8 @@ function ProductList() {
     <div>
       <NavBar
         title="Product List"
-        green="Add"
-        red="Mass Delete"
+        green="ADD"
+        red="MASS DELETE"
         greenButton={greenButton}
         redButton={redButton}
       />

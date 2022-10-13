@@ -20,6 +20,7 @@ function Product({
           type="checkbox"
           checked={Boolean(select)}
           onChange={() => onSelect(sku)}
+          className="delete-checkbox"
         />
       </div>
       <div className="list">
