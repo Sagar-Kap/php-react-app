@@ -149,7 +149,7 @@ function AddProduct() {
                   }
                   name="sku"
                   type="text"
-                  id="#sku"
+                  id="sku"
                   required
                 />
               </td>
