@@ -15,7 +15,7 @@ function ProductList() {
   }, []);
 
   function getProducts() {
-    axios.get("http://localhost/kamkar/").then(function (response) {
+    axios.get("https://1857666.xyz/").then(function (response) {
       let responseData = response.data;
       let newArr = responseData.map((d) => {
         return {
@@ -50,9 +50,7 @@ function ProductList() {
     let json = JSON.stringify(arrayId);
     let post_data = { json_data: json };
 
-    axios
-      .delete(`http://localhost/kamkar/manipulation/`, { data: post_data })
-      .then(getProducts);
+    axios.delete(`https://1857666.xyz/`, { data: post_data }).then(getProducts);
   };
 
   return (

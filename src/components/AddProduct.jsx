@@ -96,7 +96,7 @@ function AddProduct() {
     } else if (selectedOption === "Type Switcher") {
       return;
     } else {
-      axios.post("http://localhost/kamkar/", obj).then(function () {
+      axios.post("https://1857666.xyz/", obj).then(function () {
         navigate("/");
       });
     }
